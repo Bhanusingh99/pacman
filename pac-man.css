@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    text-align: center;
+    padding: 2rem;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    margin: .2rem;
+}
+.grid{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0 0 20px #111;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid div{
+    height: 21.43px;
+    width: 21.43px;
+}
+.pac-dot{
+    background-color: green;
+    border-radius: 50%;
+    border: 6.5px solid white;
+    box-sizing: border-box;
+}
+.wall{
+    background-color: blueviolet;
+}
+.power-pallet{
+    background-color: green;
+    border-radius: 10px;
+}
+.pacman{
+    border-radius: 10px;
+    background-color: rgb(255, 234, 0);
+    border: none;
+}
+.blinky{
+    background-color: red;
+    border: none;
+    border-radius:0;
+}
+.pinky{
+    background-color: pink;
+    border: none;
+    border-radius:0;
+}
+.inky{
+    background-color: blue;
+    border: none;
+    border-radius:0;
+}
+.clyde{
+    background-color: orange;
+    border: none;
+    border-radius:0;
+}
+
+.scaredGhost{
+    background-color: aquamarine;
+}
+
+.messageComatianer{
+    height: 100%;
+    width: 100%;
+    background-color: #111111b9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.dis{
+    display: block;
+}
+.message{
+  
+    background-color: blueviolet;
+    height: 40vh;
+    width: 22%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.582);
+    text-align: center;
+    padding: 1rem .5rem;
+
+}
+.message button{
+    padding: .5rem 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: white;
+    color: blueviolet;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
